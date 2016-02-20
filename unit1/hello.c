@@ -3,8 +3,5 @@
 
 int main(void)
 {
-    printf("Enter your name: ");
-    string name = GetString();
-    printf("hello, %s\n", name);
-    
+    printf("hello, world");
 }
