@@ -5,12 +5,12 @@
 
 int main(void)
 {
-    // This get a ramdom number and then the user have to guess the number
+    // The program gets a random number, and then the user has to guess the number.
     srand(time(NULL));
 
     int skittles = rand() % 1024;
     printf("This is CS50!\n");
-    printf("Welcome to Isaac guessing game! Want to play!?\n");
+    printf("Welcome to Isaac's guessing game! Want to play?\n");
     printf("Guess the number of skittles.\n");
     printf("It's between 0 and 1024.\n");
     printf("Good Luck!\n");
@@ -32,8 +32,8 @@ int main(void)
     
     printf("You got it right! You won!\n");
     printf("There was %i skittles.\n", skittles);
-    printf("Thanks for playing Isaac guessing game!\n");
+    printf("Thanks for playing Isaac's guessing game!\n");
     printf("I hope you enjoyed it!\n");
-    printf("This was by: GAMEMASTERX40!\n");
+    printf("This was by: 7H3_5H4D0W\n");
     printf("This is CS50!\n");
 }
