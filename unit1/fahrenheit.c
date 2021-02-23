@@ -3,8 +3,7 @@
 
 int main(void)
 {
-    // This takes a number from the user
-    // and convert it to Celsius to Fahrenheit
+    // The program takes a number from the user and converts it from Celsius to Fahrenheit.
     printf("C: ");
     float cel = GetFloat();
     float f = ((cel * 9) / 5) + 32;
