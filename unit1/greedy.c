@@ -8,7 +8,7 @@
 
 int main(void) 
 
-    // This gives you lagest amount of coins for the money you have
+    // The program gives you the largest amount of coins for the money you have.
 
 {
 
@@ -23,10 +23,10 @@ int main(void)
     do 
     {
     printf("This is CS50!\n");
-    printf("Need to know the lagest amount of coins for the money you have?\n");
-    printf("Then welcome to Isaac money teller!\n");
-    printf("Just put how much money you have or put a random price and it will tell you lagest coins you could use!\n");
-    printf("Remember to put the point frist\n");
+    printf("Need to know the largest amount of coins for the money you have?\n");
+    printf("Then welcome to Isaac's money teller!\n");
+    printf("Just put how much money you have or enter a random price, and it will tell you the largest coins you could use!\n");
+    printf("Remember to put the point frist.\n");
     printf("O hai! How much change is owed?\n");
         given_amount = GetFloat();
         if(given_amount == 0||given_amount <= 0)
@@ -49,9 +49,9 @@ int main(void)
     
     
     printf("You own %d coins!\n", coin_count);
-    printf("Thanks for trying Isaac money teller!\n");
+    printf("Thanks for trying Isaac's money teller!\n");
     printf("I hope you enjoyed it!\n");
-    printf("This was by: GAMEMASTERX40!\n");
+    printf("This was by: 7H3_5H4D0W\n");
     printf("This is CS50!\n");
 
 
