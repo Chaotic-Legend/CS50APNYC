@@ -5,7 +5,7 @@
 
 int main(void)
 {
-    // This tells your name
+    // The program tells your name.
     printf("Enter your name: ");
     string name = GetString();
     printf("Hello, %s\n", name);
